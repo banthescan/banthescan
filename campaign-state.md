@@ -24,12 +24,106 @@ petition:
   action_network_slug: ban-the-scan-outlaw-facial-recognition-in-new-york
 documents:
   label: Campaign Documents
-  heading: Everything your organization needs to help.
-  intro: Sign-on letters and memos of support for the state legislative package.
-  doc_link_1_label: State Package Sign-On Letter (PDF)
-  doc_link_1_url: "#"
-  doc_link_2_label: Memo of Support (PDF)
-  doc_link_2_url: "#"
+  heading: Sign-on letters and memos of support.
+  intro: Current-session support memos and prior-session campaign documents archived
+    from the original Ban the Scan website.
+  groups:
+  - id: documents-sign-on
+    heading: State Package Sign-On Letter
+    links:
+    - label: Coalition Sign-On Letter
+      detail: 2024 session | prior bill numbers
+      url: "/assets/documents/Final-State-Facial-Recognition-Bills-Sign-on-Letter.pdf"
+  - id: documents-law-enforcement
+    heading: Law Enforcement Biometrics Ban
+    links:
+    - label: NYCLU Memo of Support
+      detail: 2025-2026 | S5609/A1045
+      url: "/assets/documents/S5609-Salazar-A1045-Glick-Police-Biometric-Ban-Memo-2026.pdf"
+    - label: Legal Aid Society Memo of Support
+      detail: 2025-2026 | S5609/A1045
+      url: "/assets/documents/2025-Ban-the-Scan-Law-Enforcment-Ban-Memo-in-Support-LAS.pdf"
+    - label: S.T.O.P. Memo of Support
+      detail: 2024 archive | S1609/A1891
+      url: "/assets/documents/2024-4-1-STOP-Memo-of-Support-for-LE-FR-Ban.pdf"
+    - label: Amnesty International USA Memo of Support
+      detail: 2024 archive | S1609/A1891
+      url: "/assets/documents/Amnesty-International-MEMORANDUM-OF-SUPPORT-FOR-LAW-ENFORCEMENT-BIOMETRICS-BAN.pdf"
+    - label: Fight for the Future Memo of Support
+      detail: 2024 archive | S1609/A1891
+      url: "/assets/documents/Memo-of-Support-for-LE-FR-Ban-Fight-for-the-Futuredocx.pdf"
+  - id: documents-residential
+    heading: Residential Facial Recognition Ban
+    links:
+    - label: NYCLU Memo of Support
+      detail: 2025-2026 | S8223/A6363
+      url: "/assets/documents/S8223-Kavanaugh-A6363-Walker-Residential-Facial-Rec-Ban-2026-Memo.pdf"
+    - label: Center on Race, Inequality, and the Law Memo of Support
+      detail: 2025-2026 | S8223/A6363
+      url: "/assets/documents/CRIL_2025-Residential-FR-Ban-Memo-of-Support.pdf"
+    - label: Legal Aid Society Memo of Support
+      detail: 2025-2026 | S8223/A6363
+      url: "/assets/documents/2025-Ban-the-Scan-Residential-Memo-in-Support-LAS.pdf"
+    - label: S.T.O.P. Memo of Support
+      detail: 2024 archive | S2478/A322
+      url: "/assets/documents/2024-4-1-STOP-Memo-of-Support-for-Residential-FR-Ban.pdf"
+    - label: Amnesty International USA Memo of Support
+      detail: 2024 archive | S2478/A322
+      url: "/assets/documents/Amnesty-Memo-of-Support-for-Residential-FR-Ban.pdf"
+    - label: Fight for the Future Memo of Support
+      detail: 2024 archive | S2478/A322
+      url: "/assets/documents/Memo-of-Support-for-Residential-FR-Ban-Fight-for-the-Futuredocx.pdf"
+  - id: documents-public-accommodations
+    heading: Public Accommodations Biometrics Ban
+    links:
+    - label: NYCLU Memo of Support
+      detail: 2025-2026 | S8004/A6211
+      url: "/assets/documents/S8004-May-A6211-Simone-Public-Accommodation-Biometrics-Ban-Memo-2026.pdf"
+    - label: Center on Race, Inequality, and the Law Memo of Support
+      detail: 2025-2026 | S8004/A6211
+      url: "/assets/documents/CRIL_2025-Public-Accommodations-Ban-Memo-of-Support.pdf"
+    - label: Legal Aid Society Memo of Support
+      detail: 2025-2026 | S8004/A6211
+      url: "/assets/documents/2025-Ban-the-Scan-Public-Accommodations-Memo-in-Support-LAS.pdf"
+    - label: S.T.O.P. Memo of Support
+      detail: 2024 archive | S7135/A7625
+      url: "/assets/documents/2024-4-1-STOP-Memo-of-Support-for-Public-Accommodations-FR-Ban.pdf"
+    - label: Amnesty International USA Memo of Support
+      detail: 2024 archive | S7135/A7625
+      url: "/assets/documents/Amnesty-International-Memo-of-Support-for-Public-Accommodations-FR-Ban.pdf"
+    - label: Fight for the Future Memo of Support
+      detail: 2024 archive | S7135/A7625
+      url: "/assets/documents/Memo-of-Support-for-Public-Accommodations-FR-Ban-Fight-for-the-Futuredocx.pdf"
+  - id: documents-schools
+    heading: School Biometrics Ban
+    links:
+    - label: NYCLU Memo of Support
+      detail: Current bill page | S9643/A6720
+      url: https://www.nyclu.org/resources/policy/legislations/biometrics-in-schools
+    - label: NYCLU Memo of Support (PDF)
+      detail: 2025-2026 | S3827/A6720
+      url: "/assets/documents/S3827-Hoylman-Sigal-A6720-Simone-Biometrics-in-Schools-Memo-2026.pdf"
+    - label: Legal Aid Society Memo of Support
+      detail: 2025-2026 | S3827/A6720
+      url: "/assets/documents/2025-Ban-The-Scan-LAS-Memo-in-Support.pdf"
+    - label: Center on Race, Inequality, and the Law Memo of Support
+      detail: 2025-2026 | S3827/A6720
+      url: "/assets/documents/2025-Ban-The-Scan-Memo-of-Support-Schools-Ban-Senate-Assembly-CRIL.pdf"
+    - label: Dignity in Schools Campaign-NY Memo of Support
+      detail: 2025-2026 | S3827/A6720
+      url: "/assets/documents/2025-Ban-The-Scan-Memo-of-Support-Schools-Ban-docx.pdf"
+    - label: Fight for the Future Memo of Support
+      detail: 2025-2026 | S3827/A6720
+      url: "/assets/documents/2025-FFTF-Ban-The-Scan-Memo-of-Support.pdf"
+    - label: Fight for the Future Senate Memo of Support
+      detail: 2025-2026 | S3827
+      url: "/assets/documents/Fight-for-the-Future-2025-Ban-The-Scan-Memo-of-Support-Schools-Ban-Senate.pdf"
+    - label: S.T.O.P. Memo of Support
+      detail: 2024 archive | S7944/A8853
+      url: "/assets/documents/2024-4-1-STOP-Memo-of-Support-for-Schools-FR-Ban.pdf"
+    - label: Amnesty International USA Memo of Support
+      detail: 2024 archive | S7944/A8853
+      url: "/assets/documents/Amnesty-International-Memo-of-Support-for-Schools-FR-Ban.pdf"
   callout_text: Represent an organization? Sign on to our statewide coalition letter.
   callout_cta_label: Sign On Your Organization
 contact:
@@ -167,13 +261,22 @@ final_cta:
             <h2 class="section-heading">{{ page.documents.heading }}</h2>
             <p class="section-intro">{{ page.documents.intro }}</p>
 
-            <div class="doc-links">
-                <a class="btn btn-sm" href="{{ page.documents.doc_link_1_url }}"
-                    >{{ page.documents.doc_link_1_label }}</a
-                >
-                <a class="btn btn-sm" href="{{ page.documents.doc_link_2_url }}"
-                    >{{ page.documents.doc_link_2_label }}</a
-                >
+            <div class="document-groups">
+                {% for group in page.documents.groups %}
+                <section class="document-group" id="{{ group.id }}">
+                    <h3>{{ group.heading }}</h3>
+                    <ul class="document-list">
+                        {% for link in group.links %}
+                        <li>
+                            <a href="{{ link.url | relative_url }}" target="_blank" rel="noopener">
+                                <span>{{ link.label }}</span>
+                                <small>{{ link.detail }}</small>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </section>
+                {% endfor %}
             </div>
 
             <div class="org-callout">

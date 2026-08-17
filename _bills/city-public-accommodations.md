@@ -12,12 +12,11 @@ desc: Prohibits stores, arenas, and other places of public accommodation in New 
   at the door and retailers scanning shoppers without consent.
 links:
 - label: Read the Bill Text
-  url: "#"
+  url: https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=7861954&GUID=1D5898C5-53CA-49DA-BA41-84EF0DD03FC3
 - label: View the Biometric Map
   url: "#map"
 - label: Relevant Media
   url: "/news.html#corporate-surveillance"
-- label: Memo of Support (PDF)
-  url: "#"
+- label: Memorandum in Support
+  url: "#documents-city-current"
 ---
-

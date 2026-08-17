@@ -12,10 +12,9 @@ desc: Prohibits New York schools from using facial recognition technology on stu
   systems in the places they're required to be every day.
 links:
 - label: Read the Bill Text
-  url: "#"
+  url: https://legislation.nysenate.gov/pdf/bills/2025/S9643
 - label: Relevant Media
   url: "/news.html#policy-legislation"
-- label: Memo of Support (PDF)
-  url: "#"
+- label: Memos of Support
+  url: "#documents-schools"
 ---
-

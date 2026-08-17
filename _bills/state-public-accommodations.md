@@ -14,10 +14,9 @@ desc: Prohibits stores, arenas, and other places of public accommodation from us
   like Madison Square Garden.
 links:
 - label: Read the Bill Text
-  url: "#"
+  url: https://legislation.nysenate.gov/pdf/bills/2025/S8004
 - label: Relevant Media
   url: "/news.html#corporate-surveillance"
-- label: Memo of Support (PDF)
-  url: "#"
+- label: Memos of Support
+  url: "#documents-public-accommodations"
 ---
-

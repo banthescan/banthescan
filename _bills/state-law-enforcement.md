@@ -14,10 +14,9 @@ desc: Prohibits state and local law enforcement agencies from using facial recog
   and how to use this technology.
 links:
 - label: Read the Bill Text
-  url: "#"
+  url: https://legislation.nysenate.gov/pdf/bills/2025/S5609
 - label: Relevant Media
   url: "/news.html#research-data"
-- label: Memo of Support (PDF)
-  url: "#"
+- label: Memos of Support
+  url: "#documents-law-enforcement"
 ---
-

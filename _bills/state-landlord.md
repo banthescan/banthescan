@@ -12,10 +12,9 @@ desc: Prohibits landlords and residential building owners from requiring tenants
   bars the collection of biometric data as a condition of tenancy.
 links:
 - label: Read the Bill Text
-  url: "#"
+  url: https://legislation.nysenate.gov/pdf/bills/2025/S8223
 - label: Relevant Media
   url: "/news.html#policy-legislation"
-- label: Memo of Support (PDF)
-  url: "#"
+- label: Memos of Support
+  url: "#documents-residential"
 ---
-
