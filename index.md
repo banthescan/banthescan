@@ -199,7 +199,7 @@ final_cta:
             </h2>
             <p class="section-intro">{{ page.coalition.intro }}</p>
 
-            {% assign steering_orgs = site.coalition_orgs | where_exp: "o", "o.tags contains 'steering'" | sort: "steering_order" %}
+            {% assign steering_orgs = site.coalition_orgs | where_exp: "o", "o.tags contains 'steering'" | sort_natural: "name" %}
             <div class="org-strip">
                 {% for org in steering_orgs %}
                 <span>{{ org.name }}</span>

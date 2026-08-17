@@ -65,7 +65,7 @@ final_cta:
             <p class="section-intro">{{ page.steering.intro }}</p>
 
             <div class="logo-grid">
-                {% assign steering_orgs = site.coalition_orgs | where_exp: "o", "o.tags contains 'steering'" | sort: "steering_order" %}
+                {% assign steering_orgs = site.coalition_orgs | where_exp: "o", "o.tags contains 'steering'" | sort_natural: "name" %}
                 {% for org in steering_orgs %}
                 <div class="logo-tile">
                     <span>{{ org.name }}</span>
@@ -85,7 +85,7 @@ final_cta:
             <p class="section-intro">{{ page.members.intro }}</p>
 
             <div class="logo-grid">
-                {% assign member_orgs = site.coalition_orgs | where_exp: "o", "o.tags contains 'member'" | sort: "member_order" %}
+                {% assign member_orgs = site.coalition_orgs | where_exp: "o", "o.tags contains 'member'" | sort_natural: "name" %}
                 {% for org in member_orgs %}
                 <div class="logo-tile">
                     <span>{{ org.name }}</span>
