@@ -154,8 +154,20 @@ contact:
       biometric surveillance in New York State.&rdquo;"
     links:
     - label: Get the Email Template
-      url: "#"
-      external: false
+      mailto:
+        subject: Please support New York's biometric surveillance bills
+        body: |-
+          Dear Senator/Assemblymember [LAST NAME],
+
+          I am a constituent from [NEIGHBORHOOD OR ZIP CODE]. I am writing to ask you to co-sponsor and vote yes on the following bills in your chamber: S5609/A1045, S8223/A6363, S8004/A6211, and S9643/A6720.
+
+          Facial recognition and other biometric surveillance threaten New Yorkers' privacy and civil rights. These bills would protect New Yorkers from biometric surveillance by law enforcement, landlords, public accommodations, and schools.
+
+          Please support these bills and help advance them this session.
+
+          Thank you,
+          [YOUR NAME]
+          [YOUR ADDRESS OR ZIP CODE]
   - num: '03'
     title: Show Up
     text: Attend a hearing or coalition day of action in Albany. We'll email you the
@@ -306,7 +318,13 @@ final_cta:
                     {% endif %}
                     <div class="contact-step-links">
                         {% for link in step.links %}
-                        {% if link.external %}
+                        {% if link.mailto %}
+                        <a
+                            class="btn btn-sm"
+                            href="mailto:?subject={{ link.mailto.subject | url_encode }}&amp;body={{ link.mailto.body | url_encode }}"
+                            >{{ link.label }}</a
+                        >
+                        {% elsif link.external %}
                         <a class="btn btn-sm" href="{{ link.url }}" target="_blank" rel="noopener"
                             >{{ link.label }}</a
                         >

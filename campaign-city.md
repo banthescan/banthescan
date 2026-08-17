@@ -74,8 +74,20 @@ contact:
       of biometric surveillance.&rdquo;"
     links:
     - label: Get the Email Template
-      url: "#"
-      external: false
+      mailto:
+        subject: Please support New York City's biometric surveillance bills
+        body: |-
+          Dear Council Member [LAST NAME],
+
+          I am a constituent from [NEIGHBORHOOD OR ZIP CODE]. I am writing to ask you to co-sponsor and vote yes on Int 0213-2026, which would ban biometric surveillance in public accommodations, and Int 0428-2026, which would ban biometric entrance systems in residential buildings.
+
+          I also ask you to support and introduce legislation banning New York City government agencies from using biometric surveillance.
+
+          These technologies threaten New Yorkers' privacy, civil rights, and equal access to public spaces and housing. Please help move these protections forward.
+
+          Thank you,
+          [YOUR NAME]
+          [YOUR ADDRESS OR ZIP CODE]
   - num: '03'
     title: Show Up
     text: Attend a City Council hearing or coalition day of action. We'll email you
@@ -269,7 +281,13 @@ final_cta:
                     {% endif %}
                     <div class="contact-step-links">
                         {% for link in step.links %}
-                        {% if link.external %}
+                        {% if link.mailto %}
+                        <a
+                            class="btn btn-sm"
+                            href="mailto:?subject={{ link.mailto.subject | url_encode }}&amp;body={{ link.mailto.body | url_encode }}"
+                            >{{ link.label }}</a
+                        >
+                        {% elsif link.external %}
                         <a class="btn btn-sm" href="{{ link.url }}" target="_blank" rel="noopener"
                             >{{ link.label }}</a
                         >
