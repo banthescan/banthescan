@@ -58,7 +58,7 @@ final_cta:
                 <div class="definition-card">
                     <h3>{{ page.choose.state.title }}</h3>
                     <p>{{ page.choose.state.desc }}</p>
-                    <div class="doc-links" style="margin-top: 20px">
+                    <div class="definition-actions">
                         <a
                             class="btn btn-primary"
                             href="{{ '/campaign-state.html' | relative_url }}#contact"
@@ -74,7 +74,7 @@ final_cta:
                 <div class="definition-card">
                     <h3>{{ page.choose.city.title }}</h3>
                     <p>{{ page.choose.city.desc }}</p>
-                    <div class="doc-links" style="margin-top: 20px">
+                    <div class="definition-actions">
                         <a
                             class="btn btn-primary"
                             href="{{ '/campaign-city.html' | relative_url }}#contact"

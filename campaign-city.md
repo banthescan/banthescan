@@ -90,8 +90,7 @@ contact:
           [YOUR ADDRESS OR ZIP CODE]
   - num: '03'
     title: Show Up
-    text: Attend a City Council hearing or coalition day of action. We'll email you
-      the dates as soon as they're announced.
+    text: Attend a City Council hearing or coalition day of action.
     links:
     - label: Join Our Action Alerts
       url: "#action"

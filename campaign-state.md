@@ -170,8 +170,7 @@ contact:
           [YOUR ADDRESS OR ZIP CODE]
   - num: '03'
     title: Show Up
-    text: Attend a hearing or coalition day of action in Albany. We'll email you the
-      dates as soon as they're announced.
+    text: Attend a hearing or coalition day of action in Albany.
     links:
     - label: Join Our Action Alerts
       url: "#action"
