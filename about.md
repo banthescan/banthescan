@@ -1,6 +1,5 @@
 ---
 title: Why Ban Biometric Surveillance? | Ban the Scan
-layout: default
 nav: about
 description: Facial recognition and biometric surveillance are discriminatory, poorly
   regulated, and already causing wrongful arrests in New York. Here's the case for
@@ -31,11 +30,11 @@ case:
   label: The Case Against It
   heading: Four reasons this technology fails the people it claims to protect.
   blocks:
-  - stat: 22,000+
+  - stat: 26,000+
     title: Mass Surveillance, Minimal Oversight
-    text: The NYPD ran facial recognition searches more than 22,000 times between
-      2016 and 2019 alone, largely without public disclosure, warrants, or independent
-      oversight of how matches were used or how often they were wrong.
+    text: The NYPD ran facial recognition searches more than 26,000 times in 2025
+      alone, largely without public disclosure, warrants, or independent oversight
+      of how matches were used or how often they were wrong.
   - stat: 10&ndash;100x
     title: Built-In Bias
     text: 'A landmark 2019 federal study (NIST) found that many commercial facial
@@ -129,8 +128,8 @@ real_stories:
     link2_url: https://abc7ny.com/post/man-falsely-jailed-nypds-facial-recognition-surveillance-tech-failed/17664671/
     link2_label: ABC News
   - name: LaDonna Crutchfeld
-    link_url: ''
-    link_label: ''
+    link_url: 
+    link_label: 
     sources: Wrongly arrested by Detroit police based on facial recognition. <em>FOX
       2 Detroit</em>
   - name: Christopher Gatlin
@@ -178,6 +177,7 @@ final_cta:
   cta_primary_url: "/get-involved.html"
   cta_secondary_label: Contact Your Legislators
   cta_secondary_url: "/contact-legislators.html"
+layout: default
 ---
 
 <main id="main">
