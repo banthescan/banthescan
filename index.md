@@ -113,7 +113,6 @@ layout: default
   
                 <div class="stat">98</div>
                 <div class="stat-label">{{ page.hero.stat_4_label }}</div>            
-
     
             </div>
         </div>
