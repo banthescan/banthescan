@@ -1,6 +1,5 @@
 ---
-title: Ban the Scan | Stop Facial Recognition Surveillance in NYC &amp; New York State
-layout: default
+title: Ban the Scan | Stop Facial Recognition Surveillance in NYC & New York State
 nav: home
 description: Ban the Scan is a coalition campaign to ban discriminatory facial recognition
   and biometric surveillance in New York City and New York State.
@@ -77,49 +76,50 @@ final_cta:
   cta_primary_url: "/get-involved.html"
   cta_secondary_label: Contact Your Legislators
   cta_secondary_url: "/contact-legislators.html"
+layout: default
 ---
 
 <main id="main">
-    <!-- HERO -->
-    <section class="hero">
-        <div class="tape tape-1" aria-hidden="true"></div>
-        <div class="tape tape-2" aria-hidden="true"></div>
-        <div class="tape tape-3" aria-hidden="true"></div>
-        <div class="wrap">
-            <div class="hero-copy">
-                <span class="hero-eyebrow">{{ page.hero.eyebrow }}</span>
-                <h1>{{ page.hero.heading }}</h1>
-                <p class="hero-sub">{{ page.hero.sub }}</p>
-                <div class="hero-actions">
-                    <a class="btn btn-primary" href="{{ page.hero.cta_primary_url | relative_url }}"
-                        >{{ page.hero.cta_primary_label }}</a
-                    >
-                    <a class="btn btn-yellow" href="{{ page.hero.cta_secondary_url | relative_url }}"
-                        >{{ page.hero.cta_secondary_label }}</a
-                    >
-                </div>
-            </div>
+<!-- HERO -->
+<section class="hero">
+<div class="tape tape-1" aria-hidden="true"></div>
+<div class="tape tape-2" aria-hidden="true"></div>
+<div class="tape tape-3" aria-hidden="true"></div>
+<div class="wrap">
+<div class="hero-copy">
+<span class="hero-eyebrow">{{ page.hero.eyebrow }}</span>
+<h1>{{ page.hero.heading }}</h1>
+<p class="hero-sub">{{ page.hero.sub }}</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="{{ page.hero.cta_primary_url | relative_url }}"
+>{{ page.hero.cta_primary_label }}</a
+>
+<a class="btn btn-yellow" href="{{ page.hero.cta_secondary_url | relative_url }}"
+>{{ page.hero.cta_secondary_label }}</a
+>
+</div>
+</div>
 
             <div class="hero-card">
-                <div class="stat">22,000+</div>
+                <div class="stat">26,000+</div>
                 <div class="stat-label">{{ page.hero.stat_1_label }}</div>
-
+    
                 <div class="stat">{{ site.bills | size }}</div>
                 <div class="stat-label">{{ page.hero.stat_2_label }}</div>
-
+    
                 <div class="stat">{{ site.coalition_orgs | where_exp: "o", "o.tags contains 'member'" | size }}</div>
                 <div class="stat-label">{{ page.hero.stat_3_label }}</div>
             </div>
         </div>
     </section>
-
+    
     <!-- WHY BAN -->
     <section class="why-ban" id="why">
         <div class="wrap">
             <p class="section-label">{{ page.why_ban.label }}</p>
             <h2 class="section-heading">{{ page.why_ban.heading }}</h2>
             <p class="section-intro">{{ page.why_ban.intro }}</p>
-
+    
             <div class="reasons-grid">
                 {% for reason in page.why_ban.reasons %}
                 <div class="reason-card">
@@ -129,7 +129,7 @@ final_cta:
                 </div>
                 {% endfor %}
             </div>
-
+    
             <div class="why-ban-footer">
                 <a class="btn btn-black" href="{{ '/about.html' | relative_url }}"
                     >{{ page.why_ban.footer_cta_label }}</a
@@ -137,14 +137,14 @@ final_cta:
             </div>
         </div>
     </section>
-
+    
     <!-- CAMPAIGNS -->
     <section class="campaigns" id="campaigns">
         <div class="wrap">
             <p class="section-label">{{ page.campaigns.label }}</p>
             <h2 class="section-heading">{{ page.campaigns.heading }}</h2>
             <p class="section-intro">{{ page.campaigns.intro }}</p>
-
+    
             <div class="campaign-grid">
                 <article class="campaign-card">
                     <span class="flag">{{ page.campaigns.state.flag }}</span>
@@ -165,7 +165,7 @@ final_cta:
                         >{{ page.campaigns.state.cta_label }}</a
                     >
                 </article>
-
+    
                 <article class="campaign-card">
                     <span class="flag">{{ page.campaigns.city.flag }}</span>
                     <h3>{{ page.campaigns.city.title }}</h3>
@@ -188,7 +188,7 @@ final_cta:
             </div>
         </div>
     </section>
-
+    
     <!-- COALITION -->
     <section class="coalition" id="coalition">
         <div class="wrap">
@@ -198,7 +198,7 @@ final_cta:
                 {{ page.coalition.heading_suffix }}
             </h2>
             <p class="section-intro">{{ page.coalition.intro }}</p>
-
+    
             {% assign steering_orgs = site.coalition_orgs | where_exp: "o", "o.tags contains 'steering'" | sort_natural: "name" %}
             <div class="org-strip">
                 {% for org in steering_orgs %}
@@ -209,19 +209,19 @@ final_cta:
                 {% assign more_count = member_count | minus: steering_orgs.size %}
                 <span class="more">+ {{ more_count }} more</span>
             </div>
-
+    
             <a class="btn btn-black" href="{{ '/coalition.html' | relative_url }}"
                 >{{ page.coalition.cta_label }}</a
             >
         </div>
     </section>
-
+    
     <!-- NEWS PREVIEW -->
     <section class="news" id="media">
         <div class="wrap">
             <p class="section-label">{{ page.news.label }}</p>
             <h2 class="section-heading">{{ page.news.heading }}</h2>
-
+    
             <div class="news-grid">
                 {% assign recent_news = site.news | sort: "date" | reverse | slice: 0, 3 %}
                 {% for item in recent_news %}
@@ -234,20 +234,20 @@ final_cta:
                 </article>
                 {% endfor %}
             </div>
-
+    
             <a class="btn btn-black" href="{{ '/news.html' | relative_url }}"
                 >{{ page.news.cta_label }}</a
             >
         </div>
     </section>
-
+    
     <!-- FINAL CTA -->
     <section class="final-cta" id="action">
         <div class="wrap">
             <p class="section-label">{{ page.final_cta.label }}</p>
             <h2 class="section-heading">{{ page.final_cta.heading }}</h2>
             <p class="section-intro">{{ page.final_cta.intro }}</p>
-
+    
             <div class="cta-actions">
                 <a class="btn btn-black" href="{{ page.final_cta.cta_primary_url | relative_url }}"
                     >{{ page.final_cta.cta_primary_label }}</a
@@ -258,8 +258,9 @@ final_cta:
                     >{{ page.final_cta.cta_secondary_label }}</a
                 >
             </div>
-
+    
             {% include signup-form.html %}
         </div>
     </section>
+
 </main>
