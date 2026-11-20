@@ -13,7 +13,7 @@ hero:
   cta_primary_url: "/get-involved.html"
   cta_secondary_label: Why We're Fighting This
   cta_secondary_url: "/about.html"
-  stat_1_label: NYPD facial recognition searches, 2016&ndash;2019
+  stat_1_label: NYPD facial recognition searches, 2025
   stat_2_label: Bills moving in NYC &amp; NY State right now
   stat_3_label: Coalition organizations backing the campaign
 why_ban:
