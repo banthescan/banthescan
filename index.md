@@ -16,6 +16,7 @@ hero:
   stat_1_label: NYPD facial recognition searches, 2025
   stat_2_label: Bills moving in NYC &amp; NY State right now
   stat_3_label: Coalition organizations backing the campaign
+  stat_4_label: Requests sent to U.S. Customs and Border Protection, 2023-2025
 why_ban:
   label: The Problem
   heading: Surveillance wasn't built to be fair.
@@ -108,7 +109,12 @@ layout: default
                 <div class="stat-label">{{ page.hero.stat_2_label }}</div>
     
                 <div class="stat">{{ site.coalition_orgs | where_exp: "o", "o.tags contains 'member'" | size }}</div>
-                <div class="stat-label">{{ page.hero.stat_3_label }}</div>
+                <div class="stat-label">{{ page.hero.stat_3_label }}</div>  
+  
+                <div class="stat">98</div>
+                <div class="stat-label">{{ page.hero.stat_4_label }}</div>            
+
+    
             </div>
         </div>
     </section>
