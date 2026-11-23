@@ -1194,6 +1194,30 @@ section:last-of-type {
 }
 
 /* ==========================================================================
+   Immigration enforcement (NYPD / CBP)
+   ========================================================================== */
+
+.immigration-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: stretch;
+}
+
+.immigration-layout .definitions-grid {
+    grid-template-columns: 1fr;
+}
+
+.immigration-copy {
+    font-size: 17px;
+    align-self: center;
+}
+
+.immigration-copy p {
+    margin: 0;
+}
+
+/* ==========================================================================
    Contact your legislators (per-campaign)
    ========================================================================== */
 
@@ -1697,6 +1721,15 @@ section:last-of-type {
     .footer-grid {
         grid-template-columns: 1fr 1fr;
     }
+
+    .immigration-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .immigration-copy {
+        align-self: start;
+    }
+
 }
 
 @media (max-width: 720px) {
