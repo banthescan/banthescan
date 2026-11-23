@@ -268,11 +268,12 @@ layout: default
 
 <section class="precedent" id="immigration">
     <div class="wrap">
-        <h2>IMMIGRATION TEST</h2>
-        <p>{{ page.immigration.label }}</p>
-        <p>{{ page.immigration.heading }}</p>
-        <p>{{ page.immigration.intro }}</p>
-        <p>{{ page.immigration.text }}</p>
+        <h2>{{ page.immigration.heading }}</h2>
+
+        {% for def in page.immigration.police %}
+            <p>TEST TITLE: {{ def.title }}</p>
+            <p>TEST TEXT: {{ def.text }}</p>
+        {% endfor %}
     </div>
 </section>
 
