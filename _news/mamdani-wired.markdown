@@ -1,6 +1,6 @@
 ---
 title: Mamdani WIRED
-date: 2026-11-23 15:01:00 Z
+date: 2026-11-20 15:01:00 Z
 categories:
 - corporate-surveillance
 outlet: WIRED
