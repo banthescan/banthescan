@@ -1,6 +1,8 @@
 ---
-title: MSG Rally
+title: MSG Rally (8/14/26)
 date: 2026-08-14 14:58:00 Z
+categories:
+- policy-legislation
 outlet: WIRED
 headline: New York City Lawmakers Push to ‘Ban the Scan’ at MSG
 display_date: 2026-08-14 00:00:00 Z
