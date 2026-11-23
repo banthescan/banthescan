@@ -266,24 +266,25 @@ layout: default
         </div>
     </section>
 
-    <!-- IMMIGRATION ENFORCEMENT -->
-    <section class="precedent" id="immigration">
-        <div class="wrap">
-            <p class="section-label">{{ page.immigration.label }}</p>
-            <h2 class="section-heading">{{ page.immigration.heading }}</h2>
-            <p class="section-intro">{{ page.immigration.intro }}</p>
+<!-- IMMIGRATION ENFORCEMENT -->
+<section class="precedent" id="immigration">
+    <div class="wrap">
+        <p class="section-label">{{ page.immigration.label }}</p>
+        <h2 class="section-heading">{{ page.immigration.heading }}</h2>
+        <p class="section-intro">{{ page.immigration.intro }}</p>
 
-            <div class="definitions-grid">
-                {% for def in page.basics.police%}
-                <div class="definition-card">
-                    <h3>{{ police.title }}</h3>
-                    <p>{{ police.text }}</p>
-                </div>
-                {% endfor %}
+        <div class="definitions-grid">
+            {% for def in page.immigration.police %}
+            <div class="definition-card">
+                <h3>{{ def.title }}</h3>
+                <p>{{ def.text | markdownify }}</p>
             </div>
-            <p class="section-intro">{{ page.immigration.text}}</p>
+            {% endfor %}
         </div>
-    </section>
+
+        <p class="section-intro">{{ page.immigration.text | markdownify }}</p>
+    </div>
+</section>
 
     <!-- REAL STORIES -->
     <section class="case-against" id="real-stories">
