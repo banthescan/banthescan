@@ -284,6 +284,9 @@ layout: default
 
         <p class="section-intro">{{ page.immigration.text }}</p>
     </div>
+
+        <p class="section-intro" style="margin-top: 32px;">{{ page.immigration.text }}</p>
+    </div>
 </section>
 
     <!-- REAL STORIES -->
