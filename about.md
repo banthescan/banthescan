@@ -78,6 +78,13 @@ research:
       own accuracy testing of commercial facial recognition systems."
   - flag: Fight for the Future
     html: "<strong>Why We Absolutely Must Ban Private Use Of Facial Recognition</strong>"
+immigration:
+  label: Immigration Enforcement
+  heading: From City Streets to the Border
+  intro: Facial recognition technology does not operate in isolation. When local law
+    enforcement agencies use biometric surveillance and collaborate with federal agencies,
+    the consequences can extend far beyond the communities in which the technology
+    was originally deployed.
 real_stories:
   label: Real Stories
   heading: This isn't hypothetical. It's already happened here.
