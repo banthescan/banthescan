@@ -1,6 +1,5 @@
 ---
 title: Media Coverage | Ban the Scan
-layout: default
 nav: media
 description: News coverage of facial recognition and biometric surveillance harms
   in New York, from wrongful arrests to corporate overreach to the Ban the Scan campaign.
@@ -44,6 +43,7 @@ final_cta:
   cta_primary_url: "/get-involved.html"
   cta_secondary_label: Contact Your Legislators
   cta_secondary_url: "/contact-legislators.html"
+layout: default
 ---
 
 <main id="main">
@@ -102,7 +102,7 @@ final_cta:
                         <div class="outlet">{{ item.outlet }}</div>
                         <h3>{{ item.headline }}</h3>
                         <div class="news-card-foot">
-                            <div class="date">{{ item.display_date }}</div>
+                            <div class="date">{{ item.display_date | date: "%B %Y" }}</div>
                             <a class="card-link" href="{{ item.url }}" target="_blank" rel="noopener">{{ page.coverage.read_label }}</a>
                         </div>
                     </article>
@@ -119,7 +119,7 @@ final_cta:
                         <div class="outlet">{{ item.outlet }}</div>
                         <h3>{{ item.headline }}</h3>
                         <div class="news-card-foot">
-                            <div class="date">{{ item.display_date }}</div>
+                            <div class="date">{{ item.display_date | date: "%B %Y" }}</div>
                             <a class="card-link" href="{{ item.url }}" target="_blank" rel="noopener">{{ page.coverage.read_label }}</a>
                         </div>
                     </article>
@@ -136,7 +136,7 @@ final_cta:
                         <div class="outlet">{{ item.outlet }}</div>
                         <h3>{{ item.headline }}</h3>
                         <div class="news-card-foot">
-                            <div class="date">{{ item.display_date }}</div>
+                            <div class="date">{{ item.display_date | date: "%B %Y" }}</div>
                             <a class="card-link" href="{{ item.url }}" target="_blank" rel="noopener">{{ page.coverage.read_label }}</a>
                         </div>
                     </article>
