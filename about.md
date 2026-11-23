@@ -85,6 +85,16 @@ immigration:
     enforcement agencies use biometric surveillance and collaborate with federal agencies,
     the consequences can extend far beyond the communities in which the technology
     was originally deployed.
+  police:
+  - title: NYPD-CBP Collaboration
+  - text: |
+      * The NYPD sent **98 requests** to U.S. Customs and Border Protection (CBP) for facial recognition analysis between 2023 and 2025
+      * All documented requests originated from the NYPD **Intelligence and Counterterrorism Bureau**
+      * The department's records **failed to document** the reasons for approving individual requests or whether any requests were denied.
+  text: 'These actions directly undermine the necessary protections that New York
+    City claims to afford to immigrant communities. The prospect of being identified
+    or monitored can also discourage immigrants from accessing public spaces or institutions
+    for fear that their activities or personal information could be used against them. '
 real_stories:
   label: Real Stories
   heading: This isn't hypothetical. It's already happened here.
@@ -253,6 +263,25 @@ layout: default
                 </div>
                 {% endfor %}
             </div>
+        </div>
+    </section>
+
+    <!-- IMMIGRATION ENFORCEMENT -->
+    <section class="precedent" id="immigration">
+        <div class="wrap">
+            <p class="section-label">{{ page.immigration.label }}</p>
+            <h2 class="section-heading">{{ page.immigration.heading }}</h2>
+            <p class="section-intro">{{ page.immigration.intro }}</p>
+
+            <div class="definitions-grid">
+                {% for def in page.basics.police%}
+                <div class="definition-card">
+                    <h3>{{ police.title }}</h3>
+                    <p>{{ police.text }}</p>
+                </div>
+                {% endfor %}
+            </div>
+            <p class="section-intro">{{ page.immigration.text}}</p>
         </div>
     </section>
 
