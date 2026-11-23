@@ -87,7 +87,7 @@ immigration:
     was originally deployed.
   police:
   - title: NYPD-CBP Collaboration
-  - text: |
+    text: |-
       * The NYPD sent **98 requests** to U.S. Customs and Border Protection (CBP) for facial recognition analysis between 2023 and 2025
       * All documented requests originated from the NYPD **Intelligence and Counterterrorism Bureau**
       * The department's records **failed to document** the reasons for approving individual requests or whether any requests were denied.
@@ -266,15 +266,23 @@ layout: default
         </div>
     </section>
 
-    <!-- IMMIGRATION ENFORCEMENT -->
+<!-- IMMIGRATION ENFORCEMENT -->
 <section class="precedent" id="immigration">
     <div class="wrap">
-        <h2>{{ page.immigration.heading }}</h2>
+        <p class="section-label">{{ page.immigration.label }}</p>
+        <h2 class="section-heading">{{ page.immigration.heading }}</h2>
+        <p class="section-intro">{{ page.immigration.intro }}</p>
 
-        {% for def in page.immigration.police %}
-            <p>TEST TITLE: {{ def.title }}</p>
-            <p>TEST TEXT: {{ def.text }}</p>
-        {% endfor %}
+        <div class="definitions-grid">
+            {% for def in page.immigration.police %}
+            <div class="definition-card">
+                <h3>{{ def.title }}</h3>
+                <div>{{ def.text | markdownify }}</div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <p class="section-intro">{{ page.immigration.text }}</p>
     </div>
 </section>
 
